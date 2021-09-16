@@ -1,0 +1,105 @@
+@use '../custom' as *;
+
+.education{
+    &__logo{
+        // margin-top: 0.5rem;
+        padding: 0;
+        text-align: center;
+        position: relative;
+
+        img{
+            height: 21rem;
+            max-width: 100%;
+        }
+
+        @include media-breakpoint-down(xl){
+            img{
+                height:auto;
+                max-width: 100%;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            img{
+                height: 10rem;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .border-right{
+        border-right: 0.1rem solid $gray-300;
+        height: 100%    
+    }
+
+    .education-title{
+        margin-left: 4.5rem;
+
+        h2{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700
+        }
+
+        h3{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @include media-breakpoint-down(xl){
+            margin-left: 1rem;
+
+            h2{
+                font-size: 1.2rem;
+            }
+
+            h3{
+                font-size: 1rem;
+            }
+            
+        }
+        @include media-breakpoint-down(sm){
+            margin-left: 0;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-align: center;
+
+            h2{
+                font-size: 1rem;
+            }
+
+            h3{
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .description{
+        padding: 1rem 0 0 0;
+    }
+
+    .contribution{
+        margin-top: 2rem;
+        margin-left: 5rem;
+        h4{
+            font-size: 1.2rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        @include media-breakpoint-down(xl){
+            margin-top: 1rem;
+            margin-left: 1.4rem;
+            h4{
+                font-size: 0.9rem;
+            }
+        }
+        @include media-breakpoint-down(sm){
+            margin-top: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-align: center;
+            margin-left: 0;
+
+            h4{
+                font-size: 0.65rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@use '../custom' as *;
+
+.skills{
+    padding: 0 0 5rem 0;
+
+    &__logo-box{
+        max-width: 5rem;
+        height: 5rem;
+        margin-bottom: 2rem;
+        padding: 0;
+        text-align: center;
+        position: relative;
+
+        img{
+            height: 100%;
+        }
+        &:hover{
+            transform: scale(1.25);
+            transition: 200ms ease-in-out;
+        }
+    }
+}
