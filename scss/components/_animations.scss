@@ -1,0 +1,57 @@
+@use '../custom' as *;
+
+.revealup{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.revealup.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.revealdown{
+    position: relative;
+    transform: translateY(-150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.revealdown.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.revealleft{
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.revealleft.active{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.revealright{
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.revealright.active{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.revealzoom{
+    position: relative;
+    transform: scale(0.9,0.9);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.revealzoom.active{
+    transform: scale(1,1);
+    opacity: 1;
+}
