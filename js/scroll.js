@@ -15,9 +15,9 @@ function revealup(){
         if (revealtop < windowheight - revealpoint){
             reveals[i].classList.add('active');
         }
-        else{
-            reveals[i].classList.remove('active');
-        }
+        // else{
+        //     reveals[i].classList.remove('active');
+        // }
     }
 }
 function revealdown(){
@@ -31,9 +31,9 @@ function revealdown(){
         if (revealtop < windowheight - revealpoint){
             reveals[i].classList.add('active');
         }
-        else{
-            reveals[i].classList.remove('active');
-        }
+        // else{
+        //     reveals[i].classList.remove('active');
+        // }
     }
 }
 function revealleft(){
@@ -47,9 +47,9 @@ function revealleft(){
         if (revealtop < windowheight - revealpoint){
             reveals[i].classList.add('active');
         }
-        else{
-            reveals[i].classList.remove('active');
-        }
+        // else{
+        //     reveals[i].classList.remove('active');
+        // }
     }
 }
 function revealright(){
@@ -63,9 +63,9 @@ function revealright(){
         if (revealtop < windowheight - revealpoint){
             reveals[i].classList.add('active');
         }
-        else{
-            reveals[i].classList.remove('active');
-        }
+        // else{
+        //     reveals[i].classList.remove('active');
+        // }
     }
 }
 function revealzoom(){
@@ -79,8 +79,8 @@ function revealzoom(){
         if (revealtop < windowheight - revealpoint){
             reveals[i].classList.add('active');
         }
-        else{
-            reveals[i].classList.remove('active');
-        }
+        // else{
+        //     reveals[i].classList.remove('active');
+        // }
     }
 }
