@@ -11113,6 +11113,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.reveal {
+  position: relative;
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
 .revealup {
   position: relative;
   transform: translateY(150px);
@@ -11249,6 +11259,30 @@ textarea.form-control-lg {
   display: block;
   margin: 0 auto;
   background-color: #203354;
+}
+
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+.display-3--title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #203354, #181818);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(32, 51, 84, 0.95), rgba(24, 24, 24, 0.95));
 }
 
 .menu {
@@ -11436,6 +11470,44 @@ textarea.form-control-lg {
   visibility: visible;
   transition-duration: 0.7s;
   transition-property: all;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.cta-info__list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: none;
 }
 
 .footer {

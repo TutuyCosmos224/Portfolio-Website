@@ -1,5 +1,15 @@
 @use '../custom' as *;
 
+.reveal{
+    position: relative;
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    opacity: 1;
+}
+
 .revealup{
     position: relative;
     transform: translateY(150px);
