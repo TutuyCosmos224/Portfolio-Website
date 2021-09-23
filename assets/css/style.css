@@ -11367,6 +11367,9 @@ textarea.form-control-lg {
     display: inline-block;
   }
 }
+.display-1--navbar {
+  font-family: "Poppins", sans-serif;
+}
 
 .menu {
   background: linear-gradient(to right, rgba(32, 51, 84, 0.95), rgba(24, 24, 24, 0.95));
