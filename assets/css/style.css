@@ -11413,6 +11413,11 @@ textarea.form-control-lg {
   transition: 200ms ease-in-out;
 }
 
+.education {
+  background-color: #f2f5f8;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .education__logo {
   padding: 0;
   text-align: center;

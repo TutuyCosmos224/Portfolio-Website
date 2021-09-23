@@ -1,6 +1,9 @@
 @use '../custom' as *;
 
 .education{
+    background-color: #f2f5f8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     &__logo{
         // margin-top: 0.5rem;
         padding: 0;
