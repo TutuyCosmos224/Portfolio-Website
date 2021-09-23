@@ -26,6 +26,7 @@
 
 
         &__info {
+            font-family: 'Poppins', sans-serif;
             padding: 0.4rem;
             font-weight: 600;
         
@@ -33,14 +34,17 @@
 
             &--title {
                 color: $white;
+                font-family: 'Poppins', sans-serif;
                 text-decoration: none;
                 font-size: 1rem;
 
                 @include media-breakpoint-down(lg) {
+                    font-family: 'Poppins', sans-serif;
                     font-size: 0.8rem;
                 }
 
                 @include media-breakpoint-down(sm) {
+                    font-family: 'Poppins', sans-serif;
                     margin-top: 0.3rem;
                     font-size: 0.8rem;
                 }
@@ -49,14 +53,17 @@
 
             &--subtitle {
                 font-size: 0.8rem;
+                font-family: 'Poppins', sans-serif;
                 color: $gray-600;
                 text-decoration: none;
 
                 @include media-breakpoint-down(lg) {
+                    font-family: 'Poppins', sans-serif;
                     font-size: 0.8rem;
                 }
 
                 @include media-breakpoint-down(sm) {
+                    font-family: 'Poppins', sans-serif;
                     font-size: 0.8rem;
                 }
 
