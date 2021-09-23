@@ -11514,6 +11514,11 @@ textarea.form-control-lg {
   position: relative;
   justify-content: center;
 }
+@media (max-width: 575.98px) {
+  .footer .contact-box {
+    justify-content: left;
+  }
+}
 .footer .contact-box__icon {
   width: 3rem;
   stroke: #203354;

@@ -9,6 +9,10 @@
         position: relative;
         justify-content: center;
 
+        @include media-breakpoint-down (sm){
+            justify-content: left;
+        }
+
         &__icon {
             width: 3rem;
             stroke: $primary; 
@@ -16,7 +20,7 @@
             stroke: $pastel-blue;
 
             @include media-breakpoint-down(sm) {
-            width: 4rem;
+                width: 4rem;
             }
         }
 
