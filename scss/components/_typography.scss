@@ -15,10 +15,12 @@
         font-size: 1rem;
         display: block;
         margin-top: 1.2rem;
+        font-family: 'Poppins', sans-serif;
         text-transform: none;
 
         @include media-breakpoint-up(lg){
             font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
             display: inline-block;
         }
     }
@@ -59,6 +61,8 @@
 
         @include media-breakpoint-up(lg) {
             font-size: 1.8rem;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
         }
 
 
@@ -68,4 +72,84 @@
 //GRADIENT BG
 .gradient{
     background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
+
+.display-1{
+    font-family: 'Poppins', sans-serif;
+
+    &--title {
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 3rem;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+
+    &--title-white {
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        background-color: $white;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 3rem;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+
+    &--subtitle{
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 1.2rem;
+        text-transform: none;
+        font-weight: 700;
+
+        @include media-breakpoint-up(lg){
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+            display: inline-block;
+            font-weight: 700;
+        }
+    }
+
+    &--subtext{
+        font-size: 0.8rem;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 1.2rem;
+        text-transform: none;
+
+        @include media-breakpoint-up(lg){
+            font-size: 1.2rem;
+            font-family: 'Poppins', sans-serif;
+            display: inline-block;
+        }
+    }
+
+    &--description{
+        font-size: 0.8rem;
+        font-family: 'Poppins', sans-serif;
+        text-transform: none;
+
+        @include media-breakpoint-up(lg){
+            font-size: 1.2rem;
+            font-family: 'Poppins', sans-serif;
+            display: inline-block;
+        }
+    }
 }
