@@ -11348,10 +11348,6 @@ textarea.form-control-lg {
     max-width: 100%;
   }
 }
-.education .border-right {
-  border-right: 0.1rem solid #dee2e6;
-  height: 100%;
-}
 .education .education-title {
   margin-left: 4.5rem;
 }
